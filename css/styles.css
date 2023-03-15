@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: yellow;
+}
+img{
+    width:300px;
+}
+p{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#main{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.container{
+    outline-style: double;
+    outline-color: violet;
+}
+#navbar{
+    
+}
+#navbar ul a{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size:medium;
+    margin-left:10%;
+}
+#presentation{
+    margin-top: 32px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#name{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#spacer{
+    height:80vh;
+}
+.title{
+    font-size: 26px;
+    color:red;
+    font-style: italic;
+}
+#aboutme{
+    display:flex;
+    
+}
+#facereveal{
+    width:250px;
+    height:300px;
+    background-image:url("assets/bajan.png");
+    background-size:cover
+    
+}
+#utn{
+    width:100px;
+    height:100px;
+    background-image: url("assets/utn.png");
+    background-size:cover
+}
+#tech{
+    margin-top:50px;
+}
+#tech div{
+    margin-bottom:50px;
+}
+#mobilelast{
+    width:350px;
+    height:250px;
+    background-image:url("assets/mobilelast.png");
+    background-size:cover
+}
+.barcontainer{
+    margin-left:15%;
+}
+.bar{
+    width:70%;
+    height:50px;
+    outline-style: dotted;
+    outline-color: violet;
+}
+#godot{
+    width:5%;
+    height: 100%;
+    background-color: aqua;
+}
+#python{
+    width:10%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+#kotlin{
+    position:relative;
+    right:150px;
+    width: 150px;
+    height: 50px;
+    background-color: green;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
